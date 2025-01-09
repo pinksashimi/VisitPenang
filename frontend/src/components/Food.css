@@ -2,19 +2,21 @@
 .food-video-background {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 40vh; /* Fills the viewport height */
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1; /* Keeps the video behind other content */
 }
 
 .food-background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%; /* Stretch the video to cover the full width */
+    height: 100%; /* Ensure it fills the full height */
+    object-fit: cover; /* Ensures the video covers the container proportionally */
 }
 
+/* Overlay for Food Section */
 .food-title-container {
     position: absolute;
     top: 50%;
@@ -28,7 +30,8 @@
 .food-title-container h1 {
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    margin: 0;
 }
 
 /* Food Cards Section */
@@ -41,12 +44,12 @@
 }
 
 .food-card {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -56,12 +59,50 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.food-image {
+/* Slider for Food Images */
+.food-slider {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.food-slider .slick-arrow {
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+}
+
+.food-slider .slick-arrow:hover {
+    background-color: lightgrey;
+}
+
+.food-slider .slick-dots {
+    position: relative;
+    bottom: -15px;
+}
+
+.food-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: #3498db;
+}
+
+.food-slider .slick-dots li.slick-active button:before {
+    color: #2980b9;
+}
+
+.food-slider-image {
     width: 100%;
-    height: auto;
+    height: 300px; /* Ensures all images have the same height */
+    object-fit: cover;
     border-radius: 8px;
 }
 
+/* Food Card Text */
 .food-card h2 {
     margin: 10px 0;
     font-size: 1.5rem;
@@ -90,6 +131,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .food-card {
-        width: 90%;
+        height: 70%;
+        width: 85%;
+    }
+
+    .food-title-container h1 {
+        font-size: 2rem;
     }
 }

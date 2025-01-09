@@ -1,9 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import Food from "./components/Food";
 import Attractions from "./components/Attractions";
 import Hotels from "./components/Hotels";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 
 function App() {
@@ -13,7 +15,11 @@ function App() {
                 <nav className="top-bar">
                     <h1>
                         <Link to="/" className="logo">
-                            Visit Penang
+                            <img
+                                src={`${process.env.PUBLIC_URL}/logo.png`}
+                                alt="Visit Penang Logo"
+                                className="logo-image"
+                            />
                         </Link>
                     </h1>
                     <div className="nav-links">

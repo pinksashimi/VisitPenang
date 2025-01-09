@@ -2,19 +2,21 @@
 .attractions-video-background {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 40vh; /* Fills the viewport height */
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1; /* Keeps the video behind other content */
 }
 
 .attractions-background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%; /* Stretch the video to cover the full width */
+    height: 100%; /* Ensure it fills the full height */
+    object-fit: cover; /* Ensures the video covers the container proportionally */
 }
 
+/* Overlay for Attractions Section */
 .attractions-title-container {
     position: absolute;
     top: 50%;
@@ -28,10 +30,11 @@
 .attractions-title-container h1 {
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    margin: 0;
 }
 
-/* Attraction Cards Section */
+/* Attractions Cards Section */
 .attractions-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,41 +43,79 @@
     margin: 20px 0;
 }
 
-.attraction-card {
-    background-color: #ffffff;
+.attractions-card {
+    background-color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.attraction-card:hover {
+.attractions-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.attraction-image {
+/* Slider for Attractions Images */
+.attractions-slider {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.attractions-slider .slick-arrow {
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+}
+
+.attractions-slider .slick-arrow:hover {
+    background-color: lightgrey;
+}
+
+.attractions-slider .slick-dots {
+    position: relative;
+    bottom: -15px;
+}
+
+.attractions-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: #3498db;
+}
+
+.attractions-slider .slick-dots li.slick-active button:before {
+    color: #2980b9;
+}
+
+.attractions-slider-image {
     width: 100%;
-    height: auto;
+    height: 300px; /* Ensures all images have the same height */
+    object-fit: cover;
     border-radius: 8px;
 }
 
-.attraction-card h2 {
+/* Attractions Card Text */
+.attractions-card h2 {
     margin: 10px 0;
     font-size: 1.5rem;
     color: #2c3e50;
 }
 
-.attraction-card p {
+.attractions-card p {
     font-size: 1rem;
     color: #7f8c8d;
     margin: 5px 0;
 }
 
-.attraction-link {
+.attractions-link {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -83,6 +124,18 @@
     color: #3498db;
 }
 
-.attraction-link:hover {
+.attractions-link:hover {
     color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .attractions-card {
+        height: 70%;
+        width: 85%;
+    }
+
+    .attractions-title-container h1 {
+        font-size: 2rem;
+    }
 }
