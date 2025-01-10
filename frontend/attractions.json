@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Penang Hill",
+    "description": "A scenic hilltop retreat offering panoramic views of George Town and beyond.",
+    "location": "Penang Hill, Air Itam, Penang",
+    "website": "https://www.penanghill.gov.my/index.php/en/",
+    "image": ["https://gdn.propertygenie.com.my/image/cache/fc91a970-7ea3-458e-8f20-71bcf22490b1_1024x576.jpg?hash%3Dc5f30ff4791ed155baf5f337a781be1f&tbnid=6msKQwFrXOC8oM&vet=1&imgrefurl=https://www.propertygenie.com.my/insider-guide/penang-hill-railway-a-gravity-defying-odyssey-to-panoramic-majesty-s96Z7CZh4HAPwQp4z2Pvgd&docid=c9vi2eFWAz9yaM&w=1024&h=576&hl=en-GB&source=sh/x/im/m5/4&kgs=0deda2ad7427a2d5",
+      "https://web14.bernama.com/storage/photos/c92fdfa9a8bbdd67aef6b6898499d6b3661b7ca67d3fa",
+      "https://image-tc.galaxy.tf/wijpeg-6kv4fooq7buhf4b1ngry7uo4i/penang-hill_standard.jpg?crop%3D0%252C263%252C900%252C675&tbnid=Ucukk3DslpUSIM&vet=1&imgrefurl=https://www.stgileshotels.com/st-giles-wembley/location-city-guide/explore-penang/penang-hill&docid=KdtRE147rKKLUM&w=900&h=675&hl=en-GB&source=sh/x/im/m5/4&kgs=1afe165eadb2f2d0",
+      "https://live.staticflickr.com/1626/26470355946_418b3cb02f_h.jpg&tbnid=AHmOIiYFbdbEiM&vet=1&imgrefurl=https://www.flickr.com/photos/martinzurek/26470355946&docid=FgA62FOMbb0T6M&w=1600&h=800&hl=en-GB&source=sh/x/im/m5/4&kgs=54959e8bb6ee5a04", "https://live.staticflickr.com/1596/24319292255_f52bd42ccb_b.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Penang National Park",
+    "description": "The Penang National Park is one of the world’s smallest forest reserves and is also home to the only meromictic lake in Malaysia.",
+    "location": "Jalan Hassan Abas, 11050 George Town, Penang",
+    "website": "https://www.wildlife.gov.my/index.php/en/11-info/154-penang-national-park",
+    "image": ["https://www.mypenang.gov.my/uploads/page/16/images/Penang_NatureAdventure_NationalPark.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/77/b8/1f/20180329-141344-largejpg.jpg?w=1200&h=1200&s=1",
+      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/41000/41317-Penang-National-Park.jpg",
+      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/41000/41312-Penang-National-Park.jpg", "https://thumbs.dreamstime.com/b/hiking-green-tropical-jungle-costa-rica-central-america-hike-costa-rica-110046071.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Escape Theme Park",
+    "description": "For the thrill seekers out there, ESCAPE is the place to go.ESCAPE tries to solve real world problems and is not like your average theme park. So, escape the real world and play like a kid again!",
+    "location": "828 Jalan Teluk Bahang 11050, Penang",
+    "website": "https://www.escape.my/pg",
+    "image": ["https://cdn.prod.website-files.com/61f51a198f9fb0bf2ce11695/674446697de3e89646e6b552_ESCAPE%20Penang%20Photo%201.webp",
+      "https://www.shoptrack.my/wp-content/uploads/2023/02/escape-penang.jpg",
+      "https://www.travelswithsun.com/wp-content/uploads/Monkey-Business-Rope-Course-At-ESCAPE-Penang.jpg",
+      "https://cdn.prod.website-files.com/61f51a198f9fb0bf2ce11695/66e7d7af9df1a44398e44633_ESCAPE%20Penang%20Photo%204.jpg", "https://2.bp.blogspot.com/-_5HU_SfMM1k/W4zdoAgccaI/AAAAAAAAQLo/JKASJQVQRhYD8IIaN5ZtfJlxfX5fAX8ogCEwYBhgL/s1600/DSC_8136.JPG"
+    ]
+  }
+]

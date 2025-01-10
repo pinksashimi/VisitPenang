@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Lorong Selamat Char Koay Teow",
+    "description": "A flavorful stir-fried noodle dish.",
+    "location": "108, Lorong Selamat 10400 George Town, Penang",
+    "website": "https://www.taufulou.com/famous-lorong-selamat-char-koay-teow-at-penang/",
+    "image": ["https://thesmartlocal.my/wp-content/uploads/2024/09/image6-1536x1098.jpg",
+              "https://live.staticflickr.com/65535/52155123826_89a38834d7_c.jpg",
+              "https://www.mypenang.gov.my/uploads/page/40/images/Penang_FoodLifestyle_FB_CharKueyTeow.jpg",
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6yeO-cXYaduqgj_HtHAaO8mljbs1BYB6cgvoNfkuHPtou72m6H9s6AA6I8SOPcQYhNawDphmaN-DkK4bXwAG8JGp08ONiH2SUCNYaSdHf5h1Jd7dC4vsq9NGhZti92VcQlwyCWNeyM3qj/s1600/8.JPG",
+              "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaz4ZHuMk4YNYjYonfJ3da39ozmoggYEph2_-1_EsmbcIK36pNcXBuOx8RimdfO_KOWBxtNd8uJos6rrqxIZmpLsdMQiAMKbFrrPV7ESwM5BVN9NA8Ls7gS0faWUVNi-3M_fM8-P_YDj_5/s1600/6.JPG"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Deens Maju Nasi Kandar",
+    "description": "A traditional Malaysian dish of steamed rice served with a variety of curries and side dishes.",
+    "location": "170 Jalan Gurdwara, George Town, Penang Island 10300 Malaysia",
+    "website": "https://www.tripadvisor.com.my/Restaurant_Review-g298303-d5873013-Reviews-Deens_Maju-George_Town_Penang_Island_Penang.html",
+    "image": ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3P6o78R51Wq7inEV4OFPLjjZeRElbtDniH1rbgw70Mc-5LVNBbx5bhzyy14ONsgnkrpHJKfHxG078ay7VeIDpAliwMT53SNN7AIyM6CcAYe_swbfviKFZbttAQi8xGB0JzDgVTgxr_HdA/s1600/DSC_5675.NEF",
+              "https://direktorirakanzakat.zakatpenang.com/uploads/listing_images/57d9d68d45ba433ec3ec85ed788edf5a.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6e/4e/5e/photo3jpg.jpg?w=1200&h=700&s=1",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/15/7d/20/caption.jpg?w=800&h=500&s=1",
+              "https://media-cdn.tripadvisor.com/media/photo-s/19/c0/d8/f4/img-20191020-wa0057-largejpg.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Penang Road Famous TeoChew Chendul",
+    "description": "A traditional dessert features a refreshing combination of shaved ice, coconut milk, palm sugar syrup, and green pandan jelly noodles.",
+    "location": "27 & 29 Lebuh Keng Kwee, Penang Island 10100 Malaysia",
+    "website": "https://chendul.my",
+    "image": ["https://georgetowncity.my/wp-content/uploads/2024/06/Penang-Cendol.jpg",
+              "https://mollyta.com/wp-content/uploads/2018/12/DSCF5926.jpg?w=584",
+              "https://upinthenusair.com/wp-content/uploads/2019/02/pen2.jpg",
+              "https://media-cdn.tripadvisor.com/media/photo-s/12/70/c8/73/20180324-113315-largejpg.jpg",
+              "https://fastly.4sqi.net/img/general/600x600/4706732_hh9Uyli-MLFH8NCM2zATxx9UAcCxeCgpxZOTQiX8fXY.jpg"
+    ]
+  }
+]
